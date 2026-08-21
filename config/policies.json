@@ -1,0 +1,16 @@
+{
+  "_note": "Читается scripts/coach_cli.py. Здесь только пороги, которые действительно действуют: errors.* исполняются кодом при закрытии ошибки, остальные — канонические значения, с которыми validate сверяет числа в прозе. Декларации политики (append-only, резервные копии, source оценки) — в references/data_policy.md, source_policy.md и scoring_policy.md.",
+  "errors": {
+    "stable_successes": 3,
+    "stable_unique_dates": 3,
+    "stable_unique_contexts": 2
+  },
+  "vocabulary": {
+    "minimum_delayed_recall_rate": 0.7,
+    "new_items_pause_when_overdue_exceeds": 25
+  },
+  "estimation": {
+    "minimum_conflict_band_delta": 0.5,
+    "stable_receptive_result_requires_comparable_full_tests": 3
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "student": {
+    "preferred_language": "ru",
+    "current_estimated_level": "B1",
+    "exam": {
+      "type": "IELTS General Training",
+      "delivery": "computer",
+      "target_month": null,
+      "exact_date": null,
+      "target_scores": {
+        "listening": 7.0,
+        "reading": 7.0,
+        "writing": 7.0,
+        "speaking": 7.0
+      }
+    },
+    "schedule": {
+      "full_lesson_minutes": 120,
+      "full_days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "weekly_control_day": "Saturday",
+      "light_review_day": "Sunday",
+      "light_review_minutes": 60
+    },
+    "self_assessment_1_to_5": {
+      "listening": 3,
+      "reading": 3,
+      "writing": 3,
+      "speaking": 3
+    },
+    "main_difficulties": [
+      "misses details in listening",
+      "translates mentally into the first language",
+      "runs out of time",
+      "struggles to choose natural vocabulary"
+    ],
+    "writing": {
+      "ielts_experience": false,
+      "feedback": [
+        "detailed_error_explanations",
+        "self_correction_first",
+        "improved_version",
+        "criteria_estimate"
+      ]
+    },
+    "vocabulary": {
+      "priority_topics": [
+        "work",
+        "migration",
+        "business correspondence"
+      ],
+      "balanced_across_skills": true,
+      "current_tools": [],
+      "weekly_new_chunk_limit": [
+        25,
+        35
+      ]
+    },
+    "speaking": {
+      "mode": "voice",
+      "pronunciation_priorities": [
+        "word stress",
+        "audible endings",
+        "connected speech"
+      ]
+    },
+    "teacher_style": "demanding coach",
+    "language_transition": "gradually increase English",
+    "gamification": false,
+    "missed_work_policy": "strict reminder and rescheduling",
+    "primary_progress_focus": [
+      "recurring errors"
+    ]
+  }
+}

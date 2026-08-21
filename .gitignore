@@ -1,0 +1,21 @@
+# Local AI-tool settings may contain absolute paths and session evidence.
+.claude/
+.codex/
+
+# Real learner data stays local.
+data/*
+!data/README.md
+
+# Local artifacts and generated output.
+*.pyc
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.env
+data/dashboard.html
+
+# Operating-system files.
+.DS_Store
+Thumbs.db
+Desktop.ini
